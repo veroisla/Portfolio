@@ -1,22 +1,35 @@
 import React from 'react';
-import '../styles/App.scss';
+
+//STYLES
+import '../styles/Core/Reset.scss';
+import '../styles/Core/Variables.scss';
 
 // //RUTAS EXTERIORES
-// // import { useEffect, useState } from 'react';
-// // import { Routes, Route, Link } from 'react-router-dom';
-// // import { matchPath, useLocation } from 'react-router';
+import { useEffect, useState } from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+import { matchPath, useLocation } from 'react-router';
 
-// //SERVICIOS
-// // import callToApi from '../services/api';
-// //ESTILOS
+//SERVICIOS
+// import callToApi from '../services/api';
 
-// //RUTAS INTERNAS (COMPONENTES)
+//RUTAS INTERNAS (COMPONENTES)
+import Header from './Header';
+import Nav from './Nav';
+import About from './About';
+import Proyects from './Proyects';
+import Contact from './Contact';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div>
-      <h1>Hola mundo</h1>
-    </div>
+    <>
+      <Header />
+      <Nav />
+      <About />
+      <Proyects />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 export default App;
