@@ -10,3 +10,97 @@ $--color-primary: #f2b263;
 $--color-primary-variant:#f2b077;
 $--color-white:#fff;
 $--color-light:#d99177;
+
+
+//SIZES
+$--container-width-lg: 75%;
+$--container-width-md: 86%;
+$--container-width-sm: 90%;
+
+//TRANSITIONS
+$--transition: all 400ms ease;
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+//Barra de desplazamiento
+::-webkit-scrollbar {
+     display: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: $--color-bg;
+    color: $--color-white;
+    line-height: 1.7;
+}
+
+//General Styles
+
+.container {
+    width: $--container-width-lg;
+    margin: 0 auto; //Posicionar en el medio horizontalmente
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5 rem;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+// section > h2, section > h5 {
+//     text-align: center;
+//     color: $--color-light;
+// }
+
+// section > h2 {
+//     color: $--color-primary;
+//     margin-bottom: 3rem;
+// }
+
+a {
+    color: $--color-primary;
+    transition: $--transition;
+}
+
+a:hover {
+    color: $--color-white;
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: $--color-primary;
+    padding: 0.75rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid $--color-primary;
+    transition: $--transition;
+}
+
+.btn:hover {
+    background-color: $--color-white;
+    color: $--color-bg;
+    border-color: transparent;
+}
+
+.btn-primary {
+    background-color: $--color-primary;
+    color: $--color-bg
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover; // Como una imagen se tiene que redimensionar para ajustarse a su contenedor. Con cover el contenido se dimensiona para mantener su relación de aspecto
+}

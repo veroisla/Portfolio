@@ -3,6 +3,6 @@ import '../styles/Core/Variables.scss';
 import '../styles/Components/Header.scss';
 
 function Header() {
-  return <p className='bg_header'>Header</p>;
+  return <p>Header</p>;
 }
 export default Header;
