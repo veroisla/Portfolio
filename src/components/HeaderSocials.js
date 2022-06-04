@@ -7,6 +7,7 @@ const HeaderSocials = () => {
   return (
     <section className="header__socials">
       <a
+        className="header__link"
         href="https://www.linkedin.com/in/veronica-isla-garcia-de-leaniz/"
         target="_blank"
         rel="noreferrer"
@@ -14,7 +15,12 @@ const HeaderSocials = () => {
         {' '}
         <BsLinkedin />
       </a>
-      <a href="https://github.com/veroisla" target="_blank" rel="noreferrer">
+      <a
+        className="header__link"
+        href="https://github.com/veroisla"
+        target="_blank"
+        rel="noreferrer"
+      >
         <BsGithub />
       </a>
     </section>
