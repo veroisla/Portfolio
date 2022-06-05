@@ -10,7 +10,7 @@ function Header() {
   return (
     <header className="header">
       <h5 className="header__hello">Hello I'm</h5>
-      <h1>Verónica Isla</h1>
+      <h1 className="header__animation">Verónica Isla</h1>
       <h5 className="header__frontEnd">Front-end Developer</h5>
       <div className="header__btn--div">
         <button type="button" className="btn header__btn--cv">
