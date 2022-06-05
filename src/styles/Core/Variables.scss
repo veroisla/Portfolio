@@ -6,20 +6,30 @@
 // $--color-bg-variant:#2c2c6c;
 // $--color-primary: #4db5ff;
 
-$--color-bg:#578079;
-$--color-primary: #b3f5bc;
+// $--color-bg:#578079;
+// $--color-primary: #b3f5bc;
 
 
-$--color-bg:#cc7295;
-$--color-primary: #f2e4dc; 
+// $--color-bg:#cc7295;
+// $--color-primary: #f2e4dc; 
 
-$--color-bg: #30849e;
-$--color-primary: #3fe7e7;
-$--color-primary: #20ffff;
+// $--color-bg: #30849e;
+// $--color-primary: #3fe7e7;
+// $--color-primary: #20ffff;
+
+// $--color-bg: #ff6f69;
+// $--color-primary: #ffeead;
+
+
+$--color-bg: #0e9aa7;
+$--color-primary: #88d8b0;
+$--color-icons:#3da4ab;
+
 
 
 $--color-primary-variant:rgba(77, 181, 255, 0.4);
 $--color-white:#fff;
+$--color-hover: #ffeead;
 $--color-light:rgba(255, 255, 255, 0.6);
 
 
@@ -51,6 +61,7 @@ body {
 a {
 font-family: 'Poppins', sans-serif;
 }
+
 //General Styles
 
 .container {
@@ -66,6 +77,7 @@ h1 {
     font-size: 2.5 rem;
 }
 
+
 .text-light {
     color: $--color-light;
 }
@@ -78,13 +90,6 @@ h1 {
     cursor: pointer;
     border: 1px solid $--color-primary;
 }
-
-.btn:hover {
-    background-color: $--color-white;
-    color: $--color-bg;
-    border-color: transparent;
-}
-
 
 img {
     display: block;

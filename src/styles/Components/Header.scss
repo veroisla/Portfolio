@@ -11,22 +11,40 @@
     height: 100%;
     position: relative;
 
-    &__link {
-        color: $--color-primary;
-    }
-
  //BUTTONS
+
+ &__link--cv {
+    color: $--color-primary;
+    padding: 0.7rem;
+    &:hover {
+        color: $--color-white;
+    }
+ }
+
+ &__link--talk {
+    color: $--color-bg;
+    padding: 0.7rem;
+ }
+
     &__btn--cv {
     margin-top: 2.5rem;
     background-color: $--color-bg;
     margin-right: 1.5rem;
-    // font-family: 'Roboto Mono', monospace;
+    &:hover {
+        border-color: transparent;
+    }
  }
 
  &__btn--talk {
      background-color: $--color-primary;
-    //  font-family: 'Roboto Mono', monospace;
+     color: $--color-bg;
+     &:hover {
+        background-color: $--color-white;
+     }
+  
  }
+
+
  //SECTION2
 
   &__section2 {
@@ -35,6 +53,7 @@
       align-items: center;
       justify-content: center;
   }
+
  //IMG
 
  &__img {
@@ -47,9 +66,13 @@
 
  }
 
-
  //SOCIAL ICONS
-
+ &__link {
+    color: $--color-primary;
+    &:hover {
+        color: $--color-hover;
+    }
+ }
  &__socials {
      display: flex;
      flex-direction: column;
@@ -59,7 +82,7 @@
      margin-left: 1rem;
      margin-top: 18rem;
      font-size: 1.3rem;
-     
+
      &::after {
          content: "";
          width: 1px;

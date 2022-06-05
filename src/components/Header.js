@@ -14,12 +14,14 @@ function Header() {
       <h5 className="text-light">Front-end Developer</h5>
       <div className="header__btn--div">
         <button type="button" className="btn header__btn--cv">
-          <a className="header__link" href={CV} download>
+          <a className="header__link--cv" href={CV} download>
             Download CV
           </a>
         </button>
         <button type="button" className="btn header__btn--talk">
-          <a href="#contact">¿Hablamos?</a>
+          <a className="header__link--talk" href="#contact">
+            ¿Hablamos?
+          </a>
         </button>
       </div>
 
