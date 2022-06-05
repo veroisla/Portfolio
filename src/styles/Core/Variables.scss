@@ -2,35 +2,34 @@
 //FONTS
 
 //COLORS
-// $--color-bg:#1f1f38;
-// $--color-bg-variant:#2c2c6c;
-// $--color-primary: #4db5ff;
-
-// $--color-bg:#578079;
-// $--color-primary: #b3f5bc;
-
-
-// $--color-bg:#cc7295;
-// $--color-primary: #f2e4dc; 
-
-// $--color-bg: #30849e;
-// $--color-primary: #3fe7e7;
-// $--color-primary: #20ffff;
 
 // $--color-bg: #ff6f69;
 // $--color-primary: #ffeead;
 
+// $--color-bg:#cc7295;
+// $--color-primary: #f2e4dc; 
 
-$--color-bg: #0e9aa7;
-$--color-primary: #88d8b0;
-$--color-icons:#3da4ab;
+// $--color-bg: #0e9aa7;
+// $--color-primary: #88d8b0;
+// $--color-icons:#3da4ab;
 
-
+// $--color-bg: #30849e;
+// $--color-primary: #20ffff;
 
 $--color-primary-variant:rgba(77, 181, 255, 0.4);
 $--color-white:#fff;
 $--color-hover: #ffeead;
 $--color-light:rgba(255, 255, 255, 0.6);
+
+//PURPLE CHOICE
+
+
+$--color-img: hsl(239, 31%, 63%);
+$--color-bg2: hsl(239, 26%, 93%);
+$--color-primary:hsl(238, 34%, 38%);
+$--color-bg: hsl(239, 33%, 73%);
+$--color-bg: hsl(239, 60%, 92%);
+$--color-primary: hsl(239, 29%, 54%);
 
 
 //SIZES
@@ -55,7 +54,9 @@ body {
     background-color: $--color-bg;
     color: $--color-white;
     line-height: 1.7;
-    // background-image: url(../../images/bg-texture.png);
+    // background-image: url(../../images/billie-holiday.png);
+    position: relative;
+
 }
 
 a {
@@ -77,7 +78,6 @@ h1 {
     font-size: 2.5 rem;
 }
 
-
 .text-light {
     color: $--color-light;
 }
@@ -95,4 +95,16 @@ img {
     display: block;
     width: 100%;
     object-fit: cover; // Como una imagen se tiene que redimensionar para ajustarse a su contenedor. Con cover el contenido se dimensiona para mantener su relación de aspecto
+}
+
+.paperOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: repeat;
+    background-image:  url(../../images/billie-holiday.png);
+    mix-blend-mode: multiply;
+    pointer-events: none;
 }

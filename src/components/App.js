@@ -29,6 +29,7 @@ function App() {
       <Proyects />
       <Contact />
       <Footer />
+      <div className="paperOverlay"></div>
     </>
   );
 }
