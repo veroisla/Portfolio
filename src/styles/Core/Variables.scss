@@ -25,9 +25,9 @@ $--color-light:rgba(255, 255, 255, 0.6);
 
 
 $--color-img: hsl(239, 31%, 63%);
-$--color-bg2: hsl(239, 26%, 93%);
+$--color-bg3: hsl(239, 26%, 93%);
 $--color-primary:hsl(238, 34%, 38%);
-$--color-bg: hsl(239, 33%, 73%);
+$--color-bg2: hsl(239, 33%, 73%);
 $--color-bg: hsl(239, 60%, 92%);
 $--color-primary: hsl(239, 29%, 54%);
 
@@ -54,7 +54,6 @@ body {
     background-color: $--color-bg;
     color: $--color-white;
     line-height: 1.7;
-    // background-image: url(../../images/billie-holiday.png);
     position: relative;
 
 }
@@ -75,12 +74,9 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 2.5 rem;
+    font-size: 2.5rem;
 }
 
-.text-light {
-    color: $--color-light;
-}
 
 .btn {
     width: max-content;
@@ -96,6 +92,8 @@ img {
     width: 100%;
     object-fit: cover; // Como una imagen se tiene que redimensionar para ajustarse a su contenedor. Con cover el contenido se dimensiona para mantener su relación de aspecto
 }
+
+//TEXTURE BACKGROUND WEB
 
 .paperOverlay {
     position: absolute;
