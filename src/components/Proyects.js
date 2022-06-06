@@ -3,7 +3,7 @@ import '../styles/Core/Variables.scss';
 import '../styles/Components/Proyects.scss';
 
 function Proyects(params) {
-  return <p>Proyects</p>;
+  return <section id="proyects">Proyects</section>;
 }
 
 export default Proyects;

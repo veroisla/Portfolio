@@ -3,7 +3,7 @@ import '../styles/Core/Variables.scss';
 import '../styles/Components/Contact.scss';
 
 function Contact(params) {
-  return <p className="contact">Contact</p>;
+  return <section id="contact">Contact</section>;
 }
 
 export default Contact;

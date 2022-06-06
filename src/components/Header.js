@@ -8,7 +8,7 @@ import HeaderSocials from './HeaderSocials';
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header" id="home">
       <h5 className="header__hello">Hello I'm</h5>
       <h1 className="header__animation">Verónica Isla</h1>
       <h5 className="header__frontEnd">Front-end Developer</h5>

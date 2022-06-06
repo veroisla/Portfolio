@@ -3,7 +3,7 @@ import '../styles/Core/Variables.scss';
 import '../styles/Components/About.scss';
 
 function About(params) {
-  return <p>About</p>;
+  return <section id="about">About</section>;
 }
 
 export default About;
