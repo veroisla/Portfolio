@@ -1,2 +1,25 @@
 @import '../Core/Reset.scss';
 @import "../Core/Variables.scss";
+
+.about {
+    margin-top: 4rem;
+    background-color: $--color-bg5;
+    color: $--color-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+&__knowMe {
+     margin-top: 2rem;
+     font-size: 1rem;
+    }
+
+ &__aboutMe {
+     font-size: 2rem;
+ }
+
+ &__text {
+     text-align: center;
+     margin: 1.6rem 1.3rem 0rem 1.3rem;
+ }
+}
