@@ -1,5 +1,6 @@
 import '../styles/Core/Reset.scss';
 import '../styles/Core/Variables.scss';
+import '../styles/Components/Skills.scss';
 
 import { IoLogoJavascript } from 'react-icons/io';
 import { IoLogoHtml5 } from 'react-icons/io';
@@ -13,12 +14,12 @@ import { BsGithub } from 'react-icons/bs';
 
 const Skills = () => {
   return (
-    <section>
+    <section className="skills">
       <h2 className="skills__title">Skills</h2>
       <div className="skills__iconsSection">
         <div className="skills__icon">
           <IoLogoJavascript />
-          <p className="skills__name">JavaScript</p>
+          <p className="skills__name">JS</p>
         </div>
         <div className="skills__icon">
           <IoLogoHtml5 />
