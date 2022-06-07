@@ -16,6 +16,7 @@ import { matchPath, useLocation } from 'react-router';
 import Header from './Header';
 import Nav from './Nav';
 import About from './About';
+import Skills from './Skills';
 import Proyects from './Proyects';
 import Contact from './Contact';
 import Footer from './Footer';
@@ -26,6 +27,7 @@ function App() {
       <Header />
       <Nav />
       <About />
+      <Skills />
       <Proyects />
       <Contact />
       <Footer />
