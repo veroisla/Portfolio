@@ -16,10 +16,11 @@ const Skills = () => {
   return (
     <section className="skills">
       <h2 className="skills__title">Skills</h2>
-      <div className="skills__line"></div>
       <div className="skills__iconsSection">
         <div className="skills__icon">
-          <IoLogoJavascript />
+          <div>
+            <IoLogoJavascript className="skills__icon1" />
+          </div>
           <p className="skills__name">JS</p>
         </div>
         <div className="skills__icon">
@@ -31,13 +32,14 @@ const Skills = () => {
           <p className="skills__name">CSS3</p>
         </div>
         <div className="skills__icon">
-          <GrReactjs />
-          <p className="skills__name">ReactJS</p>
-        </div>
-        <div className="skills__icon">
           <IoLogoSass />
           <p className="skills__name">SASS</p>
         </div>
+        <div className="skills__icon">
+          <GrReactjs />
+          <p className="skills__name">ReactJS</p>
+        </div>
+
         <div className="skills__icon">
           <BsFillBootstrapFill />
           <p className="skills__name">Bootstrap</p>

@@ -8,7 +8,6 @@ function About(params) {
       <div className="prueba about">
         {/* <h5 className="about__knowMe">Conóceme</h5> */}
         <h2 className="about__aboutMe">Sobre mí</h2>
-        <div className="about__line"></div>
         <p className="about__text">
           <p className="about__formation">
             <strong>Programadora Front-end y Trabajadora Social</strong>
