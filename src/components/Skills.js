@@ -16,6 +16,7 @@ const Skills = () => {
   return (
     <section className="skills">
       <h2 className="skills__title">Skills</h2>
+      <div className="skills__line"></div>
       <div className="skills__iconsSection">
         <div className="skills__icon">
           <IoLogoJavascript />

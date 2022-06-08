@@ -4,17 +4,26 @@ import '../styles/Components/About.scss';
 
 function About(params) {
   return (
-    <section id="about" className="about">
-      <h5 className="about__knowMe">Conóceme</h5>
-      <h2 className="about__aboutMe">Sobre mí</h2>
-      <p className="about__text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores
-        quis nam veniam repudiandae corrupti at, rem eaque optio ratione,
-        expedita reprehenderit commodi numquam possimus ducimus assumenda nihil
-        consequatur odio.
-      </p>
-      <div>
-        <div></div>
+    <section id="about">
+      <div className="prueba about">
+        {/* <h5 className="about__knowMe">Conóceme</h5> */}
+        <h2 className="about__aboutMe">Sobre mí</h2>
+        <div className="about__line"></div>
+        <p className="about__text">
+          <p className="about__formation">
+            <strong>Programadora Front-end y Trabajadora Social</strong>
+          </p>
+          <p>
+            Después de trabajar en el mundo social, me enfrento a un nuevo reto,
+            trabajar en el mundo tecnológico.{' '}
+          </p>
+          <p>
+            Tras formarme en el Bootcamp de ADALAB, tengo una{' '}
+            <strong>nueva ilusión: </strong>
+            Unificar ambas disciplinas y poder generar un impacto social o
+            ambiental.
+          </p>
+        </p>
       </div>
     </section>
   );
