@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { BiLink } from 'react-icons/bi';
 
 import '../styles/Core/Reset.scss';
 import '../styles/Core/Variables.scss';
@@ -24,8 +25,15 @@ function Proyects(params) {
           {' '}
           <h4 className="proyect__name">Open Spaces</h4>
           <Link to="/OpenSpaces">
-            <RiInformationLine className="proyect__icon" />{' '}
+            <RiInformationLine className="proyect__icon" />
           </Link>
+          <a
+            href="https://veroisla.github.io/Responsive-web/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BiLink className="proyect__icon" />
+          </a>
         </div>
       </article>
     </section>

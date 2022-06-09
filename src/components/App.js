@@ -34,7 +34,7 @@ function App() {
           element={
             <>
               {' '}
-              {/* <Nav /> */}
+              <Nav />
               <Header />
               <About />
               <Skills />
