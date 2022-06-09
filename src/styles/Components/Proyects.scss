@@ -1,2 +1,67 @@
 @import '../Core/Reset.scss';
 @import "../Core/Variables.scss";
+
+
+.proyects {
+     color: $--color-white;
+     background-color: $--color-bg5;
+     height: 100vh;
+     margin-top: 4rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+    &__title {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #e9e9f2;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    &__article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+//Cada proyecto
+
+.proyect {
+    
+&__article {
+    width: max-content;
+    background-color: $--color-bg;
+    border-radius: 1rem;
+}
+&__nameAndIcon {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+   justify-content: center;
+   padding-bottom: 0.5rem;
+}
+&__name {
+    color: $--color-primary2;
+    text-align: center;
+}
+
+&__img {
+    display: block;
+    width: 270px;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+&__icon {
+    font-size: 1.5rem;
+    align-self: center;
+    color: $--color-primary;
+    cursor: pointer;
+    &:hover {
+       color: $--color-primary2;
+    }
+}
+}

@@ -6,7 +6,7 @@ import '../styles/Core/Variables.scss';
 
 // //RUTAS EXTERIORES
 import { useEffect, useState } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { matchPath, useLocation } from 'react-router';
 
 //SERVICIOS
@@ -21,15 +21,36 @@ import Proyects from './Proyects';
 import Contact from './Contact';
 import Footer from './Footer';
 
+//RUTAS DETALLE PROYECTO
+import OpenSpaces from '../components/Detail/OpenSpaces';
+
 function App() {
   return (
     <>
-      <Header />
-      <Nav />
-      <About />
-      <Skills />
-      <Proyects />
-      <Contact />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Header />
+              <Nav />
+              <About />
+              <Skills />
+              <Proyects />
+              <Contact />
+            </>
+          }
+        />{' '}
+        <Route
+          path="/OpenSpaces"
+          element={
+            <>
+              <OpenSpaces />
+            </>
+          }
+        />
+      </Routes>
+
       <Footer />
       <div className="paperOverlay"></div>
     </>
