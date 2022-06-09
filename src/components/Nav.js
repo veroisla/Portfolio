@@ -3,6 +3,7 @@ import '../styles/Core/Variables.scss';
 import '../styles/Components/Nav.scss';
 
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 //ICONS
 import { AiOutlineHome } from 'react-icons/ai';

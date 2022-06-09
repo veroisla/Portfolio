@@ -27,20 +27,23 @@ import OpenSpaces from '../components/Detail/OpenSpaces';
 function App() {
   return (
     <>
+      {' '}
       <Routes>
         <Route
           path="/"
           element={
             <>
+              {' '}
+              {/* <Nav /> */}
               <Header />
-              <Nav />
               <About />
               <Skills />
               <Proyects />
               <Contact />
             </>
           }
-        />{' '}
+        />
+
         <Route
           path="/OpenSpaces"
           element={
@@ -50,7 +53,6 @@ function App() {
           }
         />
       </Routes>
-
       <Footer />
       <div className="paperOverlay"></div>
     </>
