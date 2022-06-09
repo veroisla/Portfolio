@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.fb400b8e.css",
-    "main.js": "./static/js/main.2f3a4083.js",
+    "main.css": "./static/css/main.9590dab9.css",
+    "main.js": "./static/js/main.bf802c70.js",
     "static/media/mee.jpg": "./static/media/mee.821ecddcb9953b46bf75.jpg",
     "static/media/CV.pdf": "./static/media/CV.c98441d143b466edc63c.pdf",
     "static/media/billie-holiday.png": "./static/media/billie-holiday.693301800995d6bdbead.png",
     "index.html": "./index.html",
-    "main.fb400b8e.css.map": "./static/css/main.fb400b8e.css.map",
-    "main.2f3a4083.js.map": "./static/js/main.2f3a4083.js.map"
+    "main.9590dab9.css.map": "./static/css/main.9590dab9.css.map",
+    "main.bf802c70.js.map": "./static/js/main.bf802c70.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb400b8e.css",
-    "static/js/main.2f3a4083.js"
+    "static/css/main.9590dab9.css",
+    "static/js/main.bf802c70.js"
   ]
 }
