@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.9590dab9.css",
-    "main.js": "./static/js/main.bf802c70.js",
+    "main.css": "./static/css/main.8bf9344b.css",
+    "main.js": "./static/js/main.2fa051ed.js",
     "static/media/mee.jpg": "./static/media/mee.821ecddcb9953b46bf75.jpg",
     "static/media/CV.pdf": "./static/media/CV.c98441d143b466edc63c.pdf",
+    "static/media/openSpaces.jpg": "./static/media/openSpaces.3a0b4ab181788a0a8661.jpg",
     "static/media/billie-holiday.png": "./static/media/billie-holiday.693301800995d6bdbead.png",
     "index.html": "./index.html",
-    "main.9590dab9.css.map": "./static/css/main.9590dab9.css.map",
-    "main.bf802c70.js.map": "./static/js/main.bf802c70.js.map"
+    "main.8bf9344b.css.map": "./static/css/main.8bf9344b.css.map",
+    "main.2fa051ed.js.map": "./static/js/main.2fa051ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.9590dab9.css",
-    "static/js/main.bf802c70.js"
+    "static/css/main.8bf9344b.css",
+    "static/js/main.2fa051ed.js"
   ]
 }
