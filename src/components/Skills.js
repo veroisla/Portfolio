@@ -18,42 +18,60 @@ const Skills = () => {
       <h2 className="skills__title">Skills</h2>
       <div className="skills__iconsSection">
         <div className="skills__icon">
-          <div>
-            <IoLogoJavascript className="skills__icon1" />
+          <div className="skills__iconHeight">
+            <IoLogoJavascript />
           </div>
           <p className="skills__name">JS</p>
         </div>
+
+        {/* prueba */}
         <div className="skills__icon">
-          <IoLogoHtml5 />
+          <div className="skills__iconHeight">
+            <IoLogoHtml5 />
+          </div>
           <p className="skills__name">HTML5</p>
         </div>
         <div className="skills__icon">
-          <IoLogoCss3 />
+          <div className="skills__iconHeight">
+            <IoLogoCss3 />
+          </div>
           <p className="skills__name">CSS3</p>
         </div>
         <div className="skills__icon">
-          <IoLogoSass />
+          <div className="skills__iconHeight">
+            <IoLogoSass />
+          </div>
           <p className="skills__name">SASS</p>
         </div>
         <div className="skills__icon">
-          <GrReactjs />
+          <div className="skills__iconHeight">
+            <GrReactjs />
+          </div>
           <p className="skills__name">ReactJS</p>
         </div>
 
         <div className="skills__icon">
-          <BsFillBootstrapFill />
+          <div className="skills__iconHeight">
+            <BsFillBootstrapFill />
+          </div>
           <p className="skills__name">Bootstrap</p>
         </div>
         <div className="skills__icon">
-          <IoLogoNodejs />
+          <div className="skills__iconHeight">
+            <IoLogoNodejs />
+          </div>
           <p className="skills__name">NodeJS</p>
         </div>
         <div className="skills__icon">
-          <FaGitAlt />
+          <div className="skills__iconHeight">
+            <FaGitAlt />
+          </div>
           <p className="skills__name">Git</p>
         </div>
         <div className="skills__icon">
-          <BsGithub />
+          <div className="skills__iconHeight">
+            <BsGithub />
+          </div>
           <p className="skills__name">GitHub</p>
         </div>
       </div>
