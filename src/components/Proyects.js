@@ -25,9 +25,9 @@ function Proyects(params) {
         <div className="proyect__nameAndIcon">
           {' '}
           <h4 className="proyect__name">Open Spaces</h4>
-          {/* <Link to="/OpenSpaces">
+          <Link to="/OpenSpaces">
             <RiInformationLine className="proyect__icon" />
-          </Link> */}
+          </Link>
           <a
             href="https://veroisla.github.io/Responsive-web/"
             target="_blank"
