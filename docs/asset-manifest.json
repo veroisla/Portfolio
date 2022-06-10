@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.47eb5ab3.css",
-    "main.js": "./static/js/main.69e837a7.js",
+    "main.js": "./static/js/main.96ec8442.js",
     "static/media/mee.jpg": "./static/media/mee.821ecddcb9953b46bf75.jpg",
     "static/media/CV.pdf": "./static/media/CV.c98441d143b466edc63c.pdf",
     "static/media/loveLace.jpg": "./static/media/loveLace.c33396655a8ccb61a022.jpg",
@@ -9,10 +9,10 @@
     "static/media/billie-holiday.png": "./static/media/billie-holiday.693301800995d6bdbead.png",
     "index.html": "./index.html",
     "main.47eb5ab3.css.map": "./static/css/main.47eb5ab3.css.map",
-    "main.69e837a7.js.map": "./static/js/main.69e837a7.js.map"
+    "main.96ec8442.js.map": "./static/js/main.96ec8442.js.map"
   },
   "entrypoints": [
     "static/css/main.47eb5ab3.css",
-    "static/js/main.69e837a7.js"
+    "static/js/main.96ec8442.js"
   ]
 }
