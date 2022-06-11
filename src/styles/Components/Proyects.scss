@@ -5,7 +5,7 @@
 .proyects {
      color: $--color-white;
      background-color: $--color-bg5;
-     height: 100vh;
+     
      margin-top: 4rem;
      display: flex;
      flex-direction: column;
@@ -33,9 +33,10 @@
     
 &__article {
     width: max-content;
-    background-color: $--color-bg;
+     //background-color: $--color-bg4;
     border-radius: 1rem;
     margin-bottom: 2rem;
+     border: 3px solid $--color-bg;
 }
 &__nameAndIcon {
     display: flex;
@@ -45,7 +46,7 @@
     padding-bottom: 0.5rem;
 }
 &__name {
-    color: $--color-primary2;
+    color: $--color-white;
     text-align: center;
 }
 
@@ -59,13 +60,11 @@
 &__icon {
     font-size: 1.5rem;
     align-self: center;
-    color: $--color-primary;
+    color: $--color-white;
     cursor: pointer;
 
     &:hover {
        color: $--color-primary2;
     }
-
-    
 }
 }
