@@ -29,13 +29,22 @@ $--color-bg3: hsl(239, 26%, 93%);
 $--color-bg4: hsl(239, 39%, 83%);
 $--color-bg5:hsl(239, 31%, 63%);
 
+
+
 $--color-primary: hsl(239, 29%, 54%);
+
 $--color-primary2:hsl(238, 34%, 38%);
 $--color-primary2:hsl(237, 32%, 27%);
 
 $--color-img: hsl(239, 31%, 63%);
 
-
+// // YELLOW ??;$--color-bg:  #f5df4d;
+//    $color-primary: #ffd86a;
+//     $--color-secondary: #839a66;
+//     $--color-secondary-initial: #e0998e;
+//    $--color-bg5: WHITE;
+//     $--color-bg5:#337ab7;
+//     $--color-primary:#337ab7;
 
 //SIZES
 $--container-width-lg: 75%;
@@ -100,14 +109,14 @@ img {
 
 //TEXTURE BACKGROUND WEB
 
-.paperOverlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-repeat: repeat;
-    background-image:  url(../../images/billie-holiday.png);
-    mix-blend-mode: multiply;
-    pointer-events: none;
-}
+// .paperOverlay {
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     background-repeat: repeat;
+//     background-image:  url(../../images/billie-holiday.png);
+//     mix-blend-mode: multiply;
+//     pointer-events: none;
+// }

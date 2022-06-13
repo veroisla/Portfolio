@@ -5,12 +5,13 @@ import CV from '../CV.pdf';
 import ME from '../images/mee.jpg';
 import { BsArrowDownCircle } from 'react-icons/bs';
 import HeaderSocials from './HeaderSocials';
-
+import lines from '../images/lines.png';
 function Header() {
   return (
     <header className="header" id="home">
       <h5 className="header__hello">Hello I'm</h5>
       <h1 className="header__animation">Verónica Isla</h1>
+      {/* <img className="line" src={lines} alt="line"></img> */}
       <h5 className="header__frontEnd">Front-end Developer</h5>
       <div className="header__btn--div">
         <button type="button" className="btn header__btn--cv">

@@ -14,10 +14,25 @@
     height: 100vh;
     position: relative;
 
+    // &::after{
+    // content: "";
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
+    // z-index: -2;
+    // width: 0;
+    // height: 0;
+    // border-color: transparent transparent transparent #fff;
+    // border-style: solid;
+    // border-width: 20vw 0 0 100vw;    
+    // }
+    
+
  //TEXT
 
  &__hello {
      font-size: 1.2rem;
+    //  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
      
  }
 
@@ -130,3 +145,7 @@
 
 }
 
+
+.line {
+    width: 70px;
+}
