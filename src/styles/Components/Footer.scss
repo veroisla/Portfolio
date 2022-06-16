@@ -1,2 +1,29 @@
 @import '../Core/Reset.scss';
 @import "../Core/Variables.scss";
+
+.footer {
+    background-color: $--color-bg2;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+
+&__copyrigth {
+    color: $--color-primary2;
+}
+    &__island {
+        font-size: 1.5rem;
+    }
+
+    &__arrow {
+        font-size: 1.5rem;
+
+        &:hover {
+            color: $--color-primary2;
+            box-shadow: 5px red;
+        }
+    }
+}
+
