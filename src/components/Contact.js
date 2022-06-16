@@ -5,28 +5,28 @@ import '../styles/Components/Contact.scss';
 function Contact(params) {
   return (
     <section id="contact" className="form">
+      <h2 className="form__title">Contáctame:</h2>
       <form
         action="https://formspree.io/f/mrgjdwgk"
         method="POST"
         target="_blank"
       >
-        <fieldset className="form__input">
-          <label for="fullName" className="lable_name">
-            Nombre completo<span>*</span>
-          </label>
-          <input
-            className="form__input--box"
-            id="fullName"
-            type="text"
-            name="fullName"
-            placeholder="Nombre..."
-            required
-          />
-        </fieldset>
-
-        <section className="desktopversion">
+        <div className="form__nameAndMessage">
           <fieldset className="form__input">
-            <label for="email" className="email">
+            <label for="fullName" className="form__label">
+              Nombre<span>*</span>
+            </label>
+            <input
+              className="form__input--box"
+              id="fullName"
+              type="text"
+              name="fullName"
+              required
+            />
+          </fieldset>
+
+          <fieldset className="form__input">
+            <label for="email" className="form__label">
               Email<span>*</span>
             </label>
 
@@ -35,14 +35,12 @@ function Contact(params) {
               id="email"
               type="email"
               name="email"
-              placeholder="nombre.apellidos@mail.com"
               required
             />
           </fieldset>
-        </section>
-
+        </div>
         <fieldset className="form__input">
-          <label for="message" className="message">
+          <label for="message" className="form__label">
             Mensaje<span>*</span>
           </label>
           <textarea
@@ -53,8 +51,15 @@ function Contact(params) {
             required
           ></textarea>
         </fieldset>
+
         <fieldset className="form__send">
-          <input className="submit" type="submit" value="enviar" />
+          <button className="cta" type="submit">
+            <span>Enviar</span>
+            <svg viewBox="0 0 13 10" height="10px" width="15px">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
         </fieldset>
       </form>
     </section>

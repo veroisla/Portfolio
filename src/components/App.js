@@ -27,7 +27,7 @@ import OpenSpaces from '../components/Detail/OpenSpaces';
 function App() {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <Header />
       <About />
       <Skills />
