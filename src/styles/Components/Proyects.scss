@@ -28,14 +28,14 @@
     align-items: center;
     box-shadow: 2px 5px 10px #28e2c9ab;
     border-radius: 25px;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     width: 80%;
 }
 
 &__name {
     text-align: center; 
     color: #2f315b;
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 1.4rem 0rem 1rem 0rem;
     font-weight: bold;
     font-size: 18px;
 }
@@ -50,6 +50,7 @@
 &__info {
     padding: 1rem;
     text-align: left;
+    line-height: 1.8;
     
 }
 

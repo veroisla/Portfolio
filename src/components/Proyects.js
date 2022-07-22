@@ -63,7 +63,10 @@ function Proyects(params) {
           alt="Img Proyect Open Spaces"
           title="Img Open Spaces"
         ></img>{' '}
-        <p className="proyect__info">Informacion</p>
+        <p className="proyect__info">
+          Maquetación web responsive. HTML5, CSS3, SASS, Grid, Flexbox,
+          Animaciones.
+        </p>
         <div className="proyect__links">
           {' '}
           <a
@@ -95,7 +98,9 @@ function Proyects(params) {
           alt="Img Proyect LoveLace"
           title="Img Open Spaces"
         ></img>{' '}
-        <p>Informacion</p>
+        <p className="proyect__info">
+          Maquetación página web presentación grupo #LoveLace.
+        </p>
         <div className="proyect__links">
           {' '}
           <a
@@ -127,7 +132,10 @@ function Proyects(params) {
           alt="Img Proyect The Cocktail"
           title="Img Open Spaces"
         ></img>{' '}
-        <p className="proyect__info">Informacion</p>
+        <p className="proyect__info">
+          Buscador de cocktails, listado favoritos y uso de localStorage,
+          desarrollado con JS.
+        </p>
         <div className="proyect__links">
           {' '}
           <a
@@ -159,7 +167,10 @@ function Proyects(params) {
           alt="Img Proyect Awesome Profile Cards"
           title="Img Open Spaces"
         ></img>{' '}
-        <p className="proyect__info">Informacion</p>
+        <p className="proyect__info">
+          Aplicación para la creación de tarjetas personalizadas, desarrollado
+          con JS.
+        </p>
         <div className="proyect__links">
           {' '}
           <a
@@ -191,7 +202,10 @@ function Proyects(params) {
           alt="Img Proyect Owen Wilson´s Wow"
           title="Img Open Spaces"
         ></img>
-        <p className="proyect__info">Informacion</p>
+        <p className="proyect__info">
+          Buscador de películas de Owen Wilson + detalle de película.
+          Desarrollado con React.
+        </p>
         <div className="proyect__links">
           {' '}
           <a
@@ -222,7 +236,10 @@ function Proyects(params) {
           alt="Img Proyect Awesome Profile II"
           title="Img Open Spaces"
         ></img>
-        <p className="proyect__info">Informacion</p>
+        <p className="proyect__info">
+          Refactorización de código JS a React con código heredado y desarrollo
+          de un servidor web propio.
+        </p>
         <div className="proyect__links">
           {' '}
           <a
