@@ -1,50 +1,19 @@
 
-//FONTS
+//COLORES DEFINITIVOS
 
-//COLORS
+//--ICONOS
+$--color-icon-palm:#20ffff;
 
-// $--color-bg: #ff6f69;
-// $--color-primary: #ffeead;
+//LETRAS
 
-// $--color-bg:#cc7295;
-// $--color-primary: #f2e4dc; 
+//BORDER
 
-// $--color-bg: #0e9aa7;
-// $--color-primary: #88d8b0;
-// $--color-icons:#3da4ab;
-
-// $--color-bg: #30849e;
-// $--color-primary: #20ffff;
-
-$--color-primary-variant:rgba(77, 181, 255, 0.4);
-$--color-white:#fff;
-$--color-hover: #ffeead;
-$--color-light:rgba(255, 255, 255, 0.6);
-
-//PURPLE CHOICE
-
-$--color-bg: hsl(239, 60%, 92%);
-$--color-bg2: hsl(239, 33%, 73%);
-$--color-bg3: hsl(239, 26%, 93%);
-$--color-bg4: hsl(239, 39%, 83%);
-$--color-bg5:hsl(239, 31%, 63%);
+//BACKGROUND
 
 
 
-$--color-primary: hsl(239, 29%, 54%);
+//----------------------------------//
 
-$--color-primary2:hsl(238, 34%, 38%);
-$--color-primary2:hsl(237, 32%, 27%);
-
-$--color-img: hsl(239, 31%, 63%);
-
-// // YELLOW ??;$--color-bg:  #f5df4d;
-//    $color-primary: #ffd86a;
-//     $--color-secondary: #839a66;
-//     $--color-secondary-initial: #e0998e;
-//    $--color-bg5: WHITE;
-//     $--color-bg5:#337ab7;
-//     $--color-primary:#337ab7;
 
 //SIZES
 $--container-width-lg: 75%;
@@ -67,7 +36,8 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
     position: relative;
-
+    background-color: #FFF9F7;
+    background-color: #FFFEEE;
 }
 
 a {
@@ -96,7 +66,7 @@ h1 {
      padding: 0.75rem 0.5rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid $--color-primary;
+    border: 1px solid black;
 }
 
 img {

@@ -27,6 +27,8 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 2px 5px 10px #28e2c9ab;
+    box-shadow: 2px 5px 10px #20ffff;
+    box-shadow: 2px 5px 10px #3fd1d1;
     border-radius: 25px;
     margin-bottom: 5rem;
     width: 80%;
@@ -73,13 +75,6 @@
     color: #cb0c59;
     background: rgba(252,248,241,.8);
     box-shadow: 2px 2px 5px #28e2c9ab;
-    
-
-    
     cursor: pointer;
-    
-    &:hover {
-       color: $--color-primary2;
-    }
 }
 }

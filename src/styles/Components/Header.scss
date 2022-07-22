@@ -6,6 +6,7 @@
 .header {
     padding-top: 4rem;
     padding-bottom: 2rem;
+    padding: 2rem 0 2rem 0;
     height: 100vh;
     overflow: hidden;
     display: flex;
@@ -14,20 +15,11 @@
     height: 100vh;
     position: relative;
 
-    // &::after{
-    // content: "";
-    // position: absolute;
-    // bottom: 0;
-    // left: 0;
-    // z-index: -2;
-    // width: 0;
-    // height: 0;
-    // border-color: transparent transparent transparent #fff;
-    // border-style: solid;
-    // border-width: 20vw 0 0 100vw;    
-    // }
-    
-
+&__dots {
+    position: absolute;
+    z-index: -5;
+    width: 80%;
+}
  //TEXT
 
  &__hello {
@@ -42,47 +34,37 @@
 
  &__frontEnd {
      font-size: 1.2rem;
-     color: $--color-bg2;
+     
  }
 
  //BUTTONS
 
  &__link--cv {
-    color: $--color-primary;
     padding: 0.7rem;
     transition: color 0.6s;
 
     &:hover {
-        color: $--color-white;
+        
     }
  }
 
  &__link--talk {
-    color: $--color-white;
+    
     padding: 0.7rem; 
     transition: color 0.6s;
-
-    &:hover {
-        color: $--color-primary;
-    }
  }
 
     &__btn--cv {
     margin-top: 2.5rem;
-    background-color: $--color-bg;
+    
     margin-right: 1.5rem;
     transition: background-color 0.6s;
-
-    &:hover {
-        background-color: $--color-primary;
-    }
  }
 
  &__btn--talk {
-     background-color: $--color-primary;
      transition: background-color 0.6s;
      &:hover {
-        background-color: $--color-bg;
+      
      }
   
  }
@@ -103,20 +85,14 @@
      width: 250px;
      height: 400px;
      margin-top: 4rem;
-     border-radius: 6rem 6rem 6rem 6rem ;
+    //  border-radius: 6rem 6rem 6rem 6rem ;
     //  border-radius: 12rem 12rem 0 0  ;
-     background: linear-gradient($--color-img, transparent);//Gradiante fondo hero
+    //  background: linear-gradient(#3fd1d1, transparent);//Gradiante fondo hero
      padding: 2rem 1.5rem 1.5rem 1.5rem;
  }
 
  //SOCIAL ICONS
- &__link {
-    color: $--color-primary;
-    
-    &:hover {
-        color: $--color-img;
-    }
- }
+
  &__socials {
      display: flex;
      flex-direction: column;
@@ -131,7 +107,6 @@
          content: "";
          width: 1px;
          height: 2rem;
-         background-color: $--color-primary;
      }
  }
 

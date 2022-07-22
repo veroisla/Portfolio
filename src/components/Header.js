@@ -5,10 +5,12 @@ import CV from '../CV.pdf';
 import ME from '../images/ME.jpg';
 import { BsArrowDownCircle } from 'react-icons/bs';
 import HeaderSocials from './HeaderSocials';
+// import dots from '../images/dots.jpg';
 
 function Header() {
   return (
     <header className="header" id="home">
+      {/* <img src={dots} alt="" className="header__dots" /> */}
       <h5 className="header__hello">¡Hola!</h5>
       <h1 className="header__name">Soy Verónica Isla</h1>
       <h5 className="header__frontEnd">Front End Developer</h5>
