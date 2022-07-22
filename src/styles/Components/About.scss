@@ -5,29 +5,21 @@
     color: $--color-primary2;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;  
+    margin: 1.6rem 2rem 1.6rem 2rem;
 
  &__aboutMe {
      font-size: 1.5rem;
      font-weight: 800;
      color: $--color-primary2;
-     margin-top: 1.5rem;
      text-transform: uppercase;
-
+     margin-bottom: 2rem;
      }
 
  &__text {
-     text-align: center;
-     margin: 1.6rem 1.3rem 1.5rem 1.3rem;
+     text-align: left;
+     padding-bottom: 1.25rem;
+     line-height: 30px;
+     
  }
-
-
 }
-
-//UTILIZAR GRID SEPARAR SOBRE MI Y EL TEXTO??
-// //tablet y desktop
-// .prueba {
-//     display: grid;
-//     grid-template-columns: 1fr 1fr;
-
-// }

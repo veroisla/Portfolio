@@ -11,6 +11,7 @@ import { BsFillBootstrapFill } from 'react-icons/bs';
 import { IoLogoNodejs } from 'react-icons/io';
 import { FaGitAlt } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
+import { DiNpm } from 'react-icons/di';
 
 const Skills = () => {
   return (
@@ -18,52 +19,35 @@ const Skills = () => {
       <h2 className="skills__title">Tecnologías</h2>
       <div className="skills__iconsSection">
         <div className="skills__icon">
-          <div className="skills__iconHeight">
-            <IoLogoJavascript />
-          </div>
-        </div>
-
-        {/* prueba */}
-        <div className="skills__icon">
-          <div className="skills__iconHeight">
-            <IoLogoHtml5 />
-          </div>
+          <IoLogoJavascript />
         </div>
         <div className="skills__icon">
-          <div className="skills__iconHeight">
-            <IoLogoCss3 />
-          </div>
+          <IoLogoHtml5 />
         </div>
         <div className="skills__icon">
-          <div className="skills__iconHeight">
-            <IoLogoSass />
-          </div>
+          <IoLogoCss3 />
         </div>
         <div className="skills__icon">
-          <div className="skills__iconHeight">
-            <GrReactjs />
-          </div>
+          <IoLogoSass />
+        </div>
+        <div className="skills__icon">
+          <GrReactjs />
         </div>
 
         <div className="skills__icon">
-          <div className="skills__iconHeight">
-            <BsFillBootstrapFill />
-          </div>
+          <BsFillBootstrapFill />
         </div>
         <div className="skills__icon">
-          <div className="skills__iconHeight">
-            <IoLogoNodejs />
-          </div>
+          <IoLogoNodejs />
         </div>
         <div className="skills__icon">
-          <div className="skills__iconHeight">
-            <FaGitAlt />
-          </div>
+          <FaGitAlt />
         </div>
         <div className="skills__icon">
-          <div className="skills__iconHeight">
-            <BsGithub />
-          </div>
+          <BsGithub />
+        </div>
+        <div className="skills__icon">
+          <DiNpm />
         </div>
       </div>
     </section>

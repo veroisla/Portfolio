@@ -28,7 +28,10 @@ function Proyects(params) {
           alt="Img Proyect Open Spaces"
           title="Img Open Spaces"
         ></img>{' '}
-        <p>Informacion</p>
+        <p className="proyect__info">
+          Proyecto personal desarrollado con React, filtrado por producto +
+          detalle producto.
+        </p>
         <div className="proyect__links">
           {' '}
           <a
@@ -60,7 +63,7 @@ function Proyects(params) {
           alt="Img Proyect Open Spaces"
           title="Img Open Spaces"
         ></img>{' '}
-        <p>Informacion</p>
+        <p className="proyect__info">Informacion</p>
         <div className="proyect__links">
           {' '}
           <a
@@ -124,7 +127,7 @@ function Proyects(params) {
           alt="Img Proyect The Cocktail"
           title="Img Open Spaces"
         ></img>{' '}
-        <p>Informacion</p>
+        <p className="proyect__info">Informacion</p>
         <div className="proyect__links">
           {' '}
           <a
@@ -156,7 +159,7 @@ function Proyects(params) {
           alt="Img Proyect Awesome Profile Cards"
           title="Img Open Spaces"
         ></img>{' '}
-        <p>Informacion</p>
+        <p className="proyect__info">Informacion</p>
         <div className="proyect__links">
           {' '}
           <a
@@ -188,7 +191,7 @@ function Proyects(params) {
           alt="Img Proyect Owen Wilson´s Wow"
           title="Img Open Spaces"
         ></img>
-        <p>Informacion</p>
+        <p className="proyect__info">Informacion</p>
         <div className="proyect__links">
           {' '}
           <a
@@ -219,7 +222,7 @@ function Proyects(params) {
           alt="Img Proyect Awesome Profile II"
           title="Img Open Spaces"
         ></img>
-        <p>Informacion</p>
+        <p className="proyect__info">Informacion</p>
         <div className="proyect__links">
           {' '}
           <a

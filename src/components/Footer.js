@@ -10,9 +10,9 @@ function Footer(params) {
       <p className="footer__copyrigth">
         © Verónica Isla <GiIsland className="footer__island" />
       </p>
-      <a href="#home">
+      {/* <a href="#home">
         <BsArrowUpCircleFill className="footer__arrow" />
-      </a>{' '}
+      </a>{' '} */}
     </footer>
   );
 }
