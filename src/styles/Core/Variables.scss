@@ -3,14 +3,22 @@
 
 //--ICONOS
 $--color-icon-palm:#20ffff;
+$--color-icon-card: #cb0c59;
 
 //LETRAS
 
+
 //BORDER
+$--color-border-card: #3fd1d1;
 
 //BACKGROUND
+// verdes, azules, amarillos - 10
 
-
+$--color-green: #6db784;
+$--color-dark-blue: #1b4d89;
+$--color-light-blue: #95d6d2;
+$--color-white: #ffffff;
+$--color-yellow: #f9e45b;
 
 //----------------------------------//
 
@@ -36,8 +44,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
     position: relative;
-    background-color: #FFF9F7;
-    background-color: #FFFEEE;
+    background-color: $--color-white;
 }
 
 a {
