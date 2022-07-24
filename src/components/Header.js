@@ -2,8 +2,9 @@ import '../styles/Core/Reset.scss';
 import '../styles/Core/Variables.scss';
 import '../styles/Components/Header.scss';
 import CV from '../CV.pdf';
-import ME from '../images/ME.jpg';
-import { BsArrowDownCircle } from 'react-icons/bs';
+// import ME from '../images/ME.jpg';
+import ABI from '../images/abi.jpg';
+import { AiOutlineArrowDown } from 'react-icons/ai';
 
 function Header() {
   return (
@@ -16,7 +17,7 @@ function Header() {
         <h5 className="header__frontEnd">Front End Developer</h5>
       </div>
 
-      <div className="header__btn--div">
+      <div>
         <button type="button" className=" header__btn">
           <a className="header__link" href={CV} download>
             Download CV
@@ -33,15 +34,12 @@ function Header() {
           </a>
         </button>
       </div>
-
-      <section className="header__section2">
-        <img className="img header__img  " src={ME} alt="Vero Isla"></img>
-        <div className="header__scrollDown">
-          <a className="header__link arrow" href="#contact">
-            <BsArrowDownCircle className="header__arrow" />
-          </a>
-        </div>
-      </section>
+      <div className="header__imgAndArrow">
+        <img className="header__img" src={ABI} alt="Vero Isla"></img>
+        <a className="header__link arrow" href="#footer">
+          <AiOutlineArrowDown className="header__arrow" />
+        </a>
+      </div>
     </header>
   );
 }

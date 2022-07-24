@@ -7,7 +7,7 @@ import { FiMail } from 'react-icons/fi';
 
 function Footer(params) {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="footer__social">
         {' '}
         <a
