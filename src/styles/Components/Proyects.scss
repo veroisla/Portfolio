@@ -16,6 +16,7 @@
         margin: 2rem 0rem 2.5rem 0rem;
         color: $--color-dark-blue;
         text-decoration: underline 3px $--color-green;
+        font-family: 'Montserrat', sans-serif;
 
     }
 
@@ -85,6 +86,7 @@
 }
 
 &__icon {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +97,13 @@
     height: 40px;
     color: $--color-blue;
     box-shadow: 2px 2px 5px $--color-blue;
-    cursor: pointer;
+    &:hover {
+        box-shadow: none;
+        border: solid 2px $--color-blue;
+    }
+    //
+   
+    
 }
 
 @media all and (min-width: 768px){

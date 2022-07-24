@@ -20,7 +20,7 @@ function Proyects(params) {
       <div className="proyects__listProyects">
         {/* PROYECT DECATHLON*/}
         <article className="proyect__article">
-          <h4 className="proyect__name">Decathlon</h4>
+          <h4 className="proyect__name"> Decathlon</h4>
           <img
             className="proyect__img"
             src={Decathlon}

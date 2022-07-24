@@ -4,8 +4,6 @@ import React from 'react';
 import '../styles/Core/Reset.scss';
 import '../styles/Core/Variables.scss';
 
-import { Routes, Route, Link } from 'react-router-dom';
-
 //RUTAS INTERNAS
 import Header from './Header';
 import About from './About';

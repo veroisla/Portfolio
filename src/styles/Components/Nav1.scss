@@ -1,0 +1,37 @@
+@import '../Core/Reset.scss';
+@import "../Core/Variables.scss";
+@import "../Components/Nav.scss";
+
+.nav {
+    background-color:$--color-light-grey;
+    width: max-content;
+    // display: block;
+    padding: 0.7rem 1rem;
+    z-index: 2;
+    position: fixed;
+     left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.6rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(60px);
+}
+
+.nav a{
+    background:transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    color: $--color-blue;
+}
+
+.nav a:hover {
+     background-color: $--color-white;
+  
+}
+
+.nav a.active {
+    background-color: $--color-light-blue;
+    color: $--color-white;
+}

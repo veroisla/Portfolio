@@ -15,7 +15,7 @@ import { DiNpm } from 'react-icons/di';
 
 const Skills = () => {
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <h2 className="skills__title">Tecnologías</h2>
       <div className="skills__iconsSection">
         <div className="skills__icon">
