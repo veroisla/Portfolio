@@ -1,7 +1,6 @@
 import '../styles/Core/Reset.scss';
 import '../styles/Core/Variables.scss';
 import '../styles/Components/Footer.scss';
-import { GiIsland } from 'react-icons/gi';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
@@ -38,12 +37,7 @@ function Footer(params) {
           <BsGithub />
         </a>
       </div>{' '}
-      <p className="footer__copyrigth">
-        Website Design by Verónica Isla <GiIsland className="footer__island" />
-      </p>
-      {/* <a href="#home">
-        <BsArrowUpCircleFill className="footer__arrow" />
-      </a>{' '} */}
+      <p className="footer__copyrigth">Website Design by Verónica Isla</p>
     </footer>
   );
 }

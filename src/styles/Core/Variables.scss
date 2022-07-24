@@ -1,20 +1,13 @@
 
-//COLORES DEFINITIVOS
-
-
-
-//BACKGROUND
-// verdes, azules, amarillos - 10
+//COLORS
 $--color-border-card: #3fd1d1;
 $--color-green: #6db784;
 $--color-dark-blue: #1b4d89;
 $--color-light-blue: #95d6d2;
 $--color-white: #ffffff;
 $--color-yellow: #f9e45b;
-$--color-black: black;
-
-
-//----------------------------------//
+$--color-black: rgba(14, 12, 12, 0.904);
+$--color-light-white: #fef9f8  ;
 
 
 //SIZES
@@ -38,7 +31,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
     position: relative;
-    background-color: $--color-white;
+    background-color: $--color-light-white;
 }
 
 a {

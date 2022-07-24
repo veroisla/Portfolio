@@ -6,8 +6,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 8rem;
+    height: 10rem;
     background-color: $--color-yellow;
+    color: $--color-black;
 
     &__social {
       width: 30%;
@@ -23,11 +24,12 @@
         color: $--color-black;
     }
 
-    &__island {
-        font-size: 1.5rem;
-    }
-
     @media all and (min-width: 768px){
+
+        &__social {
+          width: 10%;
+        }
+        
         &__copyrigth {
         font-size: 18px;
     } 

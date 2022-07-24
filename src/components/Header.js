@@ -4,24 +4,27 @@ import '../styles/Components/Header.scss';
 import CV from '../CV.pdf';
 import ME from '../images/ME.jpg';
 import { BsArrowDownCircle } from 'react-icons/bs';
-// import dots from '../images/dots.jpg';
 
 function Header() {
   return (
     <header className="header" id="home">
       {/* <img src={dots} alt="" className="header__dots" /> */}
-      <h5 className="header__hello">¡Hola!</h5>
-      <h1 className="header__name">Soy Verónica Isla</h1>
-      <h5 className="header__frontEnd">Front End Developer</h5>
+      <div className="header__info">
+        {' '}
+        <h5 className="header__hello">¡Hola!</h5>
+        <h1 className="header__name">Soy Verónica Isla</h1>
+        <h5 className="header__frontEnd">Front End Developer</h5>
+      </div>
+
       <div className="header__btn--div">
-        <button type="button" className="btn header__btn--cv">
-          <a className="header__link--cv" href={CV} download>
+        <button type="button" className=" header__btn">
+          <a className="header__link" href={CV} download>
             Download CV
           </a>
         </button>
-        <button type="button" className="btn header__btn--talk">
+        <button type="button" className="header__btn">
           <a
-            className="header__link--talk"
+            className="header__link"
             href="https://www.linkedin.com/in/veronica-isla-garcia-de-leaniz/"
             target="_blank"
             rel="noreferrer"
