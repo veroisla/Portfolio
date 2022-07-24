@@ -10,9 +10,9 @@ import { AiOutlineArrowDown } from 'react-icons/ai';
 function Header() {
   return (
     <header className="header" id="home">
-      <Nav />
+      {/* <Nav /> */}
       {/* <img src={dots} alt="" className="header__dots" /> */}
-      <div>
+      <div className="header__infoAndButtons">
         {' '}
         <div className="header__info">
           {' '}
