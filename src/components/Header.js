@@ -1,7 +1,7 @@
 import '../styles/Core/Reset.scss';
 import '../styles/Core/Variables.scss';
 import '../styles/Components/Header.scss';
-import Nav from '../components/Nav';
+import Nav1 from '../components/Nav1';
 import CV from '../CV.pdf';
 // import ME from '../images/ME.jpg';
 import ABI from '../images/abi.jpg';
@@ -10,7 +10,7 @@ import { AiOutlineArrowDown } from 'react-icons/ai';
 function Header() {
   return (
     <header className="header" id="home">
-      {/* <Nav /> */}
+      <Nav1 />
       {/* <img src={dots} alt="" className="header__dots" /> */}
       <div className="header__infoAndButtons">
         {' '}

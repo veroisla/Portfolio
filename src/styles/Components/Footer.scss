@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 10rem;
+    height: 18rem;
     background-color: $--color-yellow;
     color: $--color-black;
 
@@ -38,6 +38,12 @@
         &__copyrigth {
         font-size: 18px;
     } 
+    }
+
+    @media all and (min-width:1200px) {
+      & {
+        height: 18rem;
+      }
     }
 }
 

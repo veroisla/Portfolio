@@ -1,6 +1,6 @@
 import '../styles/Core/Reset.scss';
 import '../styles/Core/Variables.scss';
-import '../styles/Components/Nav.scss';
+import '../styles/Components/Nav1.scss';
 
 import { useState } from 'react';
 
@@ -37,8 +37,8 @@ function Nav(params) {
       </a>
       <a
         href="#skills"
-        onClick={() => setActiveNav('#skills')}
-        className={activeNav === '#skills' ? 'active' : ''}
+        onClick={() => setActiveNav('#footer')}
+        className={activeNav === '#footer' ? 'active' : ''}
       >
         <AiOutlineMessage />
       </a>
