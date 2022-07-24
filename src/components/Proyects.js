@@ -15,11 +15,9 @@ import { RiComputerLine } from 'react-icons/ri';
 
 function Proyects(params) {
   return (
-    <section id="proyects" className="proyects">
-      <h5 className="proyects__title">Proyectos</h5>
-
+    <section id="proyects" className="proyects__proyects">
       {/* PROYECT DECATHLON*/}
-
+      {/* <h5 className="proyects__title">Proyectos</h5> */}
       <article className="proyect__article">
         <h4 className="proyect__name">Decathlon</h4>
         <img
@@ -99,7 +97,8 @@ function Proyects(params) {
           title="Img Open Spaces"
         ></img>{' '}
         <p className="proyect__info">
-          Maquetación página web presentación grupo #LoveLace.
+          Maquetación responsive de página web, presentación del grupo
+          #LoveLace.
         </p>
         <div className="proyect__links">
           {' '}

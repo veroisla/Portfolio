@@ -30,12 +30,10 @@
 
  &__name {
     font-size: 2rem;
-   
  }
 
  &__frontEnd {
      font-size: 1.2rem;
-     
  }
 
  //BUTTONS
@@ -92,24 +90,8 @@
      padding: 2rem 1.5rem 1.5rem 1.5rem;
  }
 
- //SOCIAL ICONS
+ //arrow down
 
- &__socials {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     gap: 0.8rem;
-     margin-right: 1rem;
-     margin-left: 1rem;
-     margin-top: 18rem;
-     font-size: 1.5rem;
-
-     &::after {
-         content: "";
-         width: 1px;
-         height: 2rem;
-     }
- }
 
  &__arrow {
     margin-top: 25rem;
@@ -123,9 +105,4 @@
     }
  }
 
-}
-
-
-.line {
-    width: 70px;
 }

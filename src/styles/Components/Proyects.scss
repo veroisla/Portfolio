@@ -2,10 +2,13 @@
 @import "../Core/Variables.scss";
 
 .proyects {
+
+    &__proyects {
      margin: 1.6rem;
      display: flex;
      flex-direction: column;
-     align-items: center;
+     align-items: center;  
+    }
 
     &__title {
         text-align: center;
@@ -15,6 +18,24 @@
         font-weight: 800;
         color: #2f315b;
         text-transform: uppercase;
+    }
+
+    @media all and (min-width: 768px){
+
+        &__proyects {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-left: 200px;
+            margin-right: 200px;   
+        }
+
+        &__title {
+            display: flex;
+            align-items: center;
+        }
+    
     }
 }
 
@@ -26,10 +47,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-     box-shadow: 2px 5px 10px $--color-dark-blue;
+    box-shadow: 2px 5px 10px $--color-light-blue;
     border-radius: 25px;
     margin-bottom: 5rem;
     width: 80%;
+    height: auto;
 }
 
 &__name {
@@ -50,7 +72,7 @@
 &__info {
     padding: 1rem;
     text-align: left;
-    line-height: 1.8;
+    line-height: 1.5;
     
 }
 
@@ -74,4 +96,18 @@
     box-shadow: 2px 2px 5px $--color-dark-blue;
     cursor: pointer;
 }
+
+@media all and (min-width: 768px){
+    &__article {
+        width: 40%;
+    }}
+
+    @media all and (min-width: 1200px){
+        &__article {
+          width: 25%;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
 }
+}
+

@@ -11,7 +11,6 @@ import Header from './Header';
 import About from './About';
 import Proyects from './Proyects';
 import Skills from './Skills';
-import Contact from './Contact';
 import Footer from './Footer';
 
 function App() {
@@ -21,9 +20,7 @@ function App() {
       <About />
       <Proyects />
       <Skills />
-      <Contact />
       <Footer />
-      <div className="paperOverlay"></div>
     </>
   );
 }

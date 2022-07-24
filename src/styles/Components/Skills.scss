@@ -11,6 +11,8 @@
         font-size: 2.5rem;
         font-weight: 800;
         margin: 2rem 0rem 2rem 0rem;
+        color: $--color-dark-blue;
+        text-decoration: underline 3px $--color-green;
      }
 
      &__iconsSection { //SECCIÓN ICONOS Y TEXTO
@@ -30,9 +32,12 @@
         border-radius: 50px;
         width: 70px;
         height: 70px;
-        border: solid 2px aquamarine;
+        background-color: $--color-yellow;
+        background-color: $--color-green;
+        background-color: $--color-light-blue;
      } 
      }
+     
 
 
      

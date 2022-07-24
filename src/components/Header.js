@@ -4,7 +4,6 @@ import '../styles/Components/Header.scss';
 import CV from '../CV.pdf';
 import ME from '../images/ME.jpg';
 import { BsArrowDownCircle } from 'react-icons/bs';
-import HeaderSocials from './HeaderSocials';
 // import dots from '../images/dots.jpg';
 
 function Header() {
@@ -21,20 +20,23 @@ function Header() {
           </a>
         </button>
         <button type="button" className="btn header__btn--talk">
-          <a className="header__link--talk" href="#contact">
+          <a
+            className="header__link--talk"
+            href="https://www.linkedin.com/in/veronica-isla-garcia-de-leaniz/"
+            target="_blank"
+            rel="noreferrer"
+          >
             ¿Hablamos?
           </a>
         </button>
       </div>
 
       <section className="header__section2">
-        {' '}
-        <HeaderSocials />
         <img className="img header__img  " src={ME} alt="Vero Isla"></img>
         <div className="header__scrollDown">
           <a className="header__link arrow" href="#contact">
             <BsArrowDownCircle className="header__arrow" />
-          </a>{' '}
+          </a>
         </div>
       </section>
     </header>
