@@ -3,9 +3,7 @@ import '../styles/Core/Variables.scss';
 import '../styles/Components/Header.scss';
 import Nav1 from '../components/Nav1';
 import CV from '../CV.pdf';
-import ABI from '../images/abi.jpg';
 import YO from '../images/YO.jpg.png';
-import VERO from '../images/Vero.jpg';
 
 import { AiOutlineArrowDown } from 'react-icons/ai';
 
