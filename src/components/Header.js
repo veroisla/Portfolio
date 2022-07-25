@@ -5,8 +5,6 @@ import Nav1 from '../components/Nav1';
 import CV from '../CV.pdf';
 import YO from '../images/YO.jpg.png';
 
-import { AiOutlineArrowDown } from 'react-icons/ai';
-
 function Header() {
   return (
     <header className="header" id="home">
@@ -37,13 +35,7 @@ function Header() {
           </button>
         </div>
       </div>
-
-      <div className="header__imgAndArrow">
-        <img className="header__img" src={YO} alt="Vero Isla"></img>
-        <a className="header__link arrow" href="#footer">
-          <AiOutlineArrowDown className="header__arrow" />
-        </a>
-      </div>
+      <img className="header__img" src={YO} alt="Vero Isla"></img>
     </header>
   );
 }

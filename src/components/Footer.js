@@ -4,10 +4,24 @@ import '../styles/Components/Footer.scss';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
+import { AiOutlineArrowUp } from 'react-icons/ai';
 
 function Footer(params) {
   return (
     <footer className="footer">
+      <div className="footer__arrowAndContact">
+        <button type="button" className="footer__btn">
+          <a
+            className="footer__link"
+            href="https://www.linkedin.com/in/veronica-isla-garcia-de-leaniz/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            ¡Contacta!
+          </a>
+        </button>
+        <a href="#home">{/* <AiOutlineArrowUp /> */}</a>
+      </div>
       <div className="footer__social">
         {' '}
         <a

@@ -2,11 +2,12 @@
 @import "../Core/Variables.scss";
 
 .header {
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
   
  //TEXT
 
@@ -15,7 +16,7 @@
    flex-direction: column;
    align-items: center;
    font-size: 1.4rem;
-   padding-top: 80px;
+   padding-top: 100px;
    color: $--color-dark-blue;  
    font-family: 'Montserrat', sans-serif;
    
@@ -55,33 +56,13 @@
     color: $--color-dark-blue;
  }
 
- //IMG AND ARROW
- &__imgAndArrow {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-    margin-top: 20px;
- }
-
  &__img {
      width: 250px;
      height: 250px;
-     margin-top: 40px; 
+     margin-top: 70px; 
      border-radius: 50%;
  }
 
- &__arrow {
-   margin-top: 50px;
-   font-size: 35px;
-   background-color: $--color-yellow;
-   color: $--color-black;
-   border-radius: 50%;
-   padding: 6px;
-
-   &:hover {
-    background-color: $--color-green;
-   }
- }
 
  @media all and (min-width: 768px) {
  & {
@@ -95,10 +76,6 @@
 
 &__infoAndButtons {
   margin-right: 50px;
-}
-
-&__imgAndArrow {
-  margin-left: 50px;
 }
 
 

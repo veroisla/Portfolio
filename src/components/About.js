@@ -8,7 +8,7 @@ function About(params) {
     <section id="about">
       <div className="about">
         <h2 className="about__aboutMe">Sobre mí</h2>
-        <div>
+        <div className="about__info">
           <p className="about__text">
             <strong>Soy Verónica Isla, Programadora Front End</strong>
           </p>

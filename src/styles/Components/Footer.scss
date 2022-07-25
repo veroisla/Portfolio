@@ -10,6 +10,32 @@
     background-color: $--color-yellow;
     color: $--color-black;
 
+    &__arrowAndContact {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  
+    &__link {
+    color: $--color-black;
+    color: $--color-dark-blue;
+
+    }
+
+    &__btn {
+      background-color: $--color-blue;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 5px;
+      font-family: 'Montserrat', sans-serif;
+      
+      &:hover {
+        background-color: $--color-light-blue;
+      }
+  
+   }
+
     &__social {
       width: 30%;
       display: flex;
