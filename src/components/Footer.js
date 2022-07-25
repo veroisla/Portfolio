@@ -7,7 +7,7 @@ import { FiMail } from 'react-icons/fi';
 
 function Footer(params) {
   return (
-    <footer className="footer" id="footer">
+    <footer className="footer">
       <div className="footer__social">
         {' '}
         <a
@@ -37,7 +37,9 @@ function Footer(params) {
           <BsGithub />
         </a>
       </div>{' '}
-      <p className="footer__copyrigth">Website Design by Verónica Isla</p>
+      <p className="footer__copyrigth" id="footer">
+        Website Design by Verónica Isla
+      </p>
     </footer>
   );
 }
