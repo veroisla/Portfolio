@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.fcfd5697.css",
-    "main.js": "./static/js/main.30602aae.js",
-    "static/media/CV.pdf": "./static/media/CV.bc705b222d61a07ec7ae.pdf",
+    "main.js": "./static/js/main.9457b79a.js",
+    "static/media/CV.pdf": "./static/media/CV.b0c593e63de79e8b90ec.pdf",
     "static/media/Decathlon.jpg": "./static/media/Decathlon.df49b82189a8117ffe0a.jpg",
     "static/media/YO.jpg.png": "./static/media/YO.jpg.931100a30bdbfb4e04f5.png",
     "static/media/Owen.jpg": "./static/media/Owen.3878b7ac82d3275918e1.jpg",
@@ -13,10 +13,10 @@
     "static/media/Awesome1.jpg": "./static/media/Awesome1.880977db7cf471c0d325.jpg",
     "index.html": "./index.html",
     "main.fcfd5697.css.map": "./static/css/main.fcfd5697.css.map",
-    "main.30602aae.js.map": "./static/js/main.30602aae.js.map"
+    "main.9457b79a.js.map": "./static/js/main.9457b79a.js.map"
   },
   "entrypoints": [
     "static/css/main.fcfd5697.css",
-    "static/js/main.30602aae.js"
+    "static/js/main.9457b79a.js"
   ]
 }
