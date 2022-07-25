@@ -1,2 +1,1 @@
-# In process 🛠
-- Mobile First
+Portfolio realizado con React :)
