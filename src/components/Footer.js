@@ -20,7 +20,9 @@ function Footer(params) {
             ¡Contacta!
           </a>
         </button>
-        <a href="#home">{/* <AiOutlineArrowUp /> */}</a>
+        <a href="#home" className="footer__arrowUp">
+          <AiOutlineArrowUp />
+        </a>
       </div>
       <div className="footer__social">
         {' '}
@@ -50,7 +52,7 @@ function Footer(params) {
         >
           <BsGithub />
         </a>
-      </div>{' '}
+      </div>
       <p className="footer__copyrigth" id="footer">
         Website Design by Verónica Isla
       </p>
