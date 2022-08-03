@@ -2,7 +2,6 @@ import '../styles/Core/Reset.scss';
 import '../styles/Core/Variables.scss';
 import '../styles/Components/Header.scss';
 import Nav1 from '../components/Nav1';
-import NavMobile from './NavMobile';
 import CV from '../CV.pdf';
 import YO from '../images/YO.jpg.png';
 
@@ -10,7 +9,6 @@ function Header() {
   return (
     <header className="header" id="home">
       <Nav1 />
-      <NavMobile />
 
       <div className="header__infoAndButtons">
         {' '}

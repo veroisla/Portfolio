@@ -8,8 +8,8 @@ import { AiOutlineArrowUp } from 'react-icons/ai';
 
 function Footer(params) {
   return (
-    <footer className="footer">
-      <div className="footer__arrowAndContact">
+    <footer className="footer" id="footer">
+      {/* <div className="footer__arrowAndContact">
         <button type="button" className="footer__btn">
           <a
             className="footer__link"
@@ -23,7 +23,7 @@ function Footer(params) {
         <a href="#home" className="footer__arrowUp">
           <AiOutlineArrowUp />
         </a>
-      </div>
+      </div> */}
       <div className="footer__social">
         {' '}
         <a
