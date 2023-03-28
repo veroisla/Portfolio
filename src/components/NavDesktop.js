@@ -24,7 +24,7 @@ function NavDesktop() {
       <ul className="nav__List animate__animated animate__fadeInDown">
         <Link to="/">
           <li
-            className={isActiveLink === 'home' ? 'activeLink' : 'nav__Item'}
+            className={isActiveLink === 'home' ? 'activeLink' : 'nav__ItemList'}
             onClick={(ev) => handleNav(ev, 'home')}
           >
             <a href="#home">Home</a>
@@ -33,7 +33,9 @@ function NavDesktop() {
 
         <Link to="/About">
           <li
-            className={isActiveLink === 'about' ? 'activeLink' : 'nav__Item'}
+            className={
+              isActiveLink === 'about' ? 'activeLink' : 'nav__ItemList'
+            }
             onClick={(ev) => handleNav(ev, 'about')}
           >
             <a href="#about">Sobre mí</a>
@@ -41,7 +43,9 @@ function NavDesktop() {
         </Link>
         <Link to="/Proyects">
           <li
-            className={isActiveLink === 'proyects' ? 'activeLink' : 'nav__Item'}
+            className={
+              isActiveLink === 'proyects' ? 'activeLink' : 'nav__ItemList'
+            }
             onClick={(ev) => handleNav(ev, 'proyects')}
           >
             <a href="#proyects">Proyectos</a>
@@ -49,7 +53,9 @@ function NavDesktop() {
         </Link>
         <Link to="/Contact">
           <li
-            className={isActiveLink === 'contact' ? 'activeLink' : 'nav__Item'}
+            className={
+              isActiveLink === 'contact' ? 'activeLink' : 'nav__ItemList'
+            }
             onClick={(ev) => handleNav(ev, 'contact')}
           >
             <a href="#contact">Contacto</a>

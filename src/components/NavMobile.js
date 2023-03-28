@@ -48,7 +48,7 @@ function NavMobile() {
             </div>
 
             <nav>
-              <ul className="nav__list">
+              <ul className="nav__listMobile">
                 <Link to="/">
                   <li
                     className={

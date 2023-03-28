@@ -1,61 +1,60 @@
 @import '../Core/Reset.scss';
-@import "../Core/Variables.scss";
+@import '../Core/Variables.scss';
 
 //Cada proyecto
 
 .proyect {
-   
-    &__article {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        box-shadow: 2px 5px 10px $--color-bg-ligth-pink;
-        border-radius: 25px;
-        margin-bottom: 5rem;
-        min-width: 315px;
-        min-height: 380px;
-        height: auto;
-        font-family: $--font-family-Roboto;
-        letter-spacing: 2px;
-        color: $--color-title-sections;
-        background-color: $--color-white;
-        transition: all .5s;
-        border: 2px solid $--color-purple;
-    }
-    
-    &__name {
-        text-align: center; 
-        margin: 1.4rem 0rem 1rem 0rem;
-        font-weight: bold;
-        font-size: 16px;
-        text-transform: uppercase;
-        color: $--color-primary;
-    }
-    
-    &__img {
-        display: block;
-        border-radius: 5px;
-        padding: 1rem;
-        height: 250px;
-        width: 250px;  
-    }
-    
-    &__info {
-        padding: 1rem;
-        text-align: left;
-        line-height: 1.5;
-    }
-    
-    &__links {
-       display: flex;
-       flex-direction: row;
-       justify-content:space-evenly;
-       width: 100%;
-       color: $--color-white;
-    }
-    
-    &__icon {
-     background-color:  $--color-global-pink;
+  &__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 5px 10px $--color-bg-ligth-pink;
+    border-radius: 25px;
+    margin-bottom: 5rem;
+    min-width: 315px;
+    min-height: 380px;
+    height: auto;
+    font-family: $--font-family-Roboto;
+    letter-spacing: 2px;
+    color: $--color-title-sections;
+    background-color: $--color-white;
+    transition: all 0.5s;
+    border: 2px solid $--color-purple;
+  }
+
+  &__name {
+    text-align: center;
+    margin: 1.4rem 0rem 1rem 0rem;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $--color-primary;
+  }
+
+  &__img {
+    display: block;
+    border-radius: 5px;
+    padding: 1rem;
+    height: 250px;
+    width: 250px;
+  }
+
+  &__info {
+    padding: 1rem;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    color: $--color-white;
+  }
+
+  &__icon {
+    background-color: $--color-global-pink;
     border-radius: 50px;
     width: 40px;
     height: 40px;
@@ -64,35 +63,33 @@
     line-height: 44px;
     color: inherit;
     font-size: 18px;
-    margin: 1rem 0rem 1rem 0rem;   
+    margin: 1rem 0rem 1rem 0rem;
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-       &:hover {
-        background-color: $--color-orange;
-        transition: backgound-color 2s;
-      } 
+    &:hover {
+      background-color: $--color-orange;
+      transition: backgound-color 2s;
     }
+  }
 
-
-    
-    @media all and (min-width: 768px){
-
-        &__article {
-            width: 280px;
-            height: 320px;
-        }
+  @media all and (min-width: 768px) {
+    &__article {
+      width: 280px;
+      height: 320px;
+    }
     &__article:hover {
-        transform: scale(1.05);
+      transform: scale(1.05);
     }
-    
+  }
+
+  @media all and (min-width: 1200px) {
+    &__article {
+      //   width: 20%;
+      margin-left: 20px;
+      margin-right: 20px;
     }
-    
-        @media all and (min-width: 1200px){
-            &__article {
-            //   width: 20%;
-              margin-left: 20px;
-              margin-right: 20px;
-            }
-    }
-    }
-    
+  }
+}
