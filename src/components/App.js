@@ -14,9 +14,9 @@ import Header from './Header';
 // import NavMobile from './NavMobile';
 
 function App() {
-  window.addEventListener('load', function () {
-    window.location.href = 'http://localhost:3000/#/';
-  });
+  // window.addEventListener('load', function () {
+  //   window.location.href = 'http://localhost:3000/#/';
+  // });
 
   return (
     <div>
