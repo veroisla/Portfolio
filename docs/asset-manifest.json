@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "./static/css/main.5a9ccbd8.css",
-    "main.js": "./static/js/main.0fca6c59.js",
+    "main.css": "./static/css/main.57073f90.css",
+    "main.js": "./static/js/main.4b0f2a19.js",
     "static/media/fotoVero.png": "./static/media/fotoVero.78c7aec43bb44f8254d0.png",
+    "static/media/womenWithComputer.png": "./static/media/womenWithComputer.49880c36f72b4c327548.png",
+    "static/media/CardDetail.png": "./static/media/CardDetail.c5b2143aab1fb5876146.png",
+    "static/media/Calculadora.png": "./static/media/Calculadora.a9a8098f8ca64eca5260.png",
     "static/media/CV.pdf": "./static/media/CV.f2fb7bcb20dff636aa31.pdf",
+    "static/media/Rick&Morty.JPG": "./static/media/Rick&Morty.ab6d7a94297466ef791e.JPG",
+    "static/media/Decathlon.jpg": "./static/media/Decathlon.df49b82189a8117ffe0a.jpg",
+    "static/media/Owen.jpg": "./static/media/Owen.3878b7ac82d3275918e1.jpg",
+    "static/media/LoveLace.jpg": "./static/media/LoveLace.20ba7eef7c5189c260da.jpg",
+    "static/media/OpenSpaces.jpg": "./static/media/OpenSpaces.10010150ea1d1177c875.jpg",
+    "static/media/SignupForm.jpg": "./static/media/SignupForm.805ac6a092b1d3cde3b5.jpg",
+    "static/media/Cocktail.jpg": "./static/media/Cocktail.59a5684f07c174c37878.jpg",
+    "static/media/Sunnyside.jpg": "./static/media/Sunnyside.10dad18abfcd0546deee.jpg",
+    "static/media/Awesome2.jpg": "./static/media/Awesome2.cadf2861436cfe350d95.jpg",
+    "static/media/Napptilus.jpg": "./static/media/Napptilus.b487755b86be13f6d196.jpg",
+    "static/media/Advice.JPG": "./static/media/Advice.0eb7b5cab5bd7d2c26bc.JPG",
     "static/media/Flor-01.png": "./static/media/Flor-01.595ad2ce356481327b75.png",
     "index.html": "./index.html",
-    "main.5a9ccbd8.css.map": "./static/css/main.5a9ccbd8.css.map",
-    "main.0fca6c59.js.map": "./static/js/main.0fca6c59.js.map"
+    "main.57073f90.css.map": "./static/css/main.57073f90.css.map",
+    "main.4b0f2a19.js.map": "./static/js/main.4b0f2a19.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a9ccbd8.css",
-    "static/js/main.0fca6c59.js"
+    "static/css/main.57073f90.css",
+    "static/js/main.4b0f2a19.js"
   ]
 }
