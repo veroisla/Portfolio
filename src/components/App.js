@@ -7,7 +7,7 @@ import '../styles/Core/Variables.scss';
 
 //RUTAS INTERNAS
 import Header from './Header';
-// import About from './About';
+import About from './About';
 // import Proyects from './Proyects';
 // import Contact from './Contact';
 // import NavDesktop from './NavDesktop';
@@ -20,18 +20,19 @@ function App() {
 
   return (
     <div>
-      {/* <header>
+      {/* { <header>
         <NavDesktop />
         <NavMobile />
-      </header>
+      </header> */}
+
       <main className="main">
         <Routes>
           <Route path="/" element={<Header />} />
           <Route path="/About" element={<About />} />
-          <Route path="/Proyects" element={<Proyects />} />
-          <Route path="/Contact" element={<Contact />} />
+          {/* <Route path="/Proyects" element={<Proyects />} />
+          <Route path="/Contact" element={<Contact />} /> */}
         </Routes>
-      </main> */}
+      </main>
       <Header />
     </div>
   );
