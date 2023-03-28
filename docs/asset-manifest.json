@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.js": "./static/js/main.fb6ec63b.js",
+    "main.css": "./static/css/main.5a9ccbd8.css",
+    "main.js": "./static/js/main.8a5347c9.js",
+    "static/media/fotoVero.png": "./static/media/fotoVero.78c7aec43bb44f8254d0.png",
+    "static/media/CV.pdf": "./static/media/CV.f2fb7bcb20dff636aa31.pdf",
+    "static/media/Flor-01.png": "./static/media/Flor-01.595ad2ce356481327b75.png",
     "index.html": "./index.html",
-    "main.fb6ec63b.js.map": "./static/js/main.fb6ec63b.js.map"
+    "main.5a9ccbd8.css.map": "./static/css/main.5a9ccbd8.css.map",
+    "main.8a5347c9.js.map": "./static/js/main.8a5347c9.js.map"
   },
   "entrypoints": [
-    "static/js/main.fb6ec63b.js"
+    "static/css/main.5a9ccbd8.css",
+    "static/js/main.8a5347c9.js"
   ]
 }
