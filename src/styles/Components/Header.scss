@@ -1,0 +1,228 @@
+@import '../Core/Reset.scss';
+@import "../Core/Variables.scss";
+
+
+.header {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;  
+  justify-content: space-between;
+  height: 90vh;
+ 
+
+  &__containerInfoAndImg {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+
+ &__info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: $--font-family-Roboto;
+   font-weight: 700;
+   letter-spacing: 2px;
+   font-size: 22px;  
+   color: $--color-primary;
+ 
+ }
+
+ &__frontend {
+  font-size: 24px;
+ }
+
+ //BUTTONS
+
+ &__containerBtn {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+ }
+
+ &__btn {
+    margin-top: 2.5rem;
+    transition: color .1s ease-in-out,background-color .1s ease-in-out;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 6px 6px 6px 6px;
+    padding: 2% 5% 2% 5%;
+    font-size: 14px; 
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 3px;
+    
+    
+    &--cv {
+      background-color: $--color-accent-purple;
+      transition: 0.8s;
+
+      &:active {
+        background-color: $--color-global-pink; 
+      }
+    }
+
+    &--speak {
+      background-color: $--color-global-pink;
+      transition: 0.8s;
+
+      &:active {
+        background-color: $--color-accent-purple; 
+      }
+    }
+
+ }
+
+ &__link {
+  color: $--color-white;
+ }
+
+ //IMAGEN
+
+ &__containerImg {
+  display: flex;
+    justify-content: center;
+ }
+
+&__flower {
+  width: 80px;
+}
+
+
+ &__img {
+     width: 250px;
+     height: 250px;
+     margin-top: 70px; 
+     margin-bottom: 30px;
+     border-radius: 50%;
+ }
+
+ &__copyRitght {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  justify-content: space-evenly;
+  color: $--color-title-sections;
+  margin-bottom: 10px;
+ }
+
+ &__heart {
+  color: $--color-pink;
+ }
+
+
+ @media all and (min-width: 768px) {
+
+  // TODO:BUSCAR MEJOR MANERA DE POSICIONAR LA FLOR
+ & {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 1;
+}
+
+&__containerInfoAndImg {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 240px;
+ }
+
+&__info {
+  font-size: 30px;  
+}
+
+&__frontend {
+  font-size: 30px;
+ }
+
+
+&__infoAndButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  
+}
+
+&__containerBtn {
+  display: flex;
+  justify-content: center;
+}
+
+&__btn {
+  font-size: 16px; 
+  padding: 3% 7% 3% 7%;
+  text-transform: uppercase;
+}
+
+&__btn--cv {
+  margin-right: 8px;
+
+  &:hover {
+ background-color: $--color-global-pink;
+ transition: backgound-color 2s;
+}
+}
+
+
+&__btn--speak {
+  margin-left: 8px;
+  &:hover {
+    background-color: $--color-accent-purple;
+  }
+}
+
+&__info {
+  padding-top: 0px;
+}
+
+&__img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+&__copyRitght {
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+
+&__flower {
+  width: 230px;
+  position: absolute;
+  bottom: 0%;
+  left: 4%;
+  transform: rotate(30deg);
+  z-index: -1;
+  opacity: 0.8;
+}
+}
+
+
+ @media all and (min-width: 1200px) {
+
+  & {
+    padding: 0px 200px 0px 200px;
+  }
+
+
+  &__img {
+    width: 350px;
+    height: 350px;
+  }
+
+  &__flower {
+    width: 360px;
+  }
+  
+ }
+ }

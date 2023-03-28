@@ -1,0 +1,53 @@
+@import '../Core/Reset.scss';
+@import "../Core/Variables.scss";
+
+.proyects {
+
+    &__proyects {
+     margin: 1.6rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;  
+    }
+
+
+    &__title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 3rem 0rem 5rem 0rem;
+    font-family: $--font-family-Roboto;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $--color-white;
+    background-color: $--color-orange;
+    border-radius: 5px;
+    padding: 5px 15px;
+    }
+
+    &__listProyects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+  
+}
+
+@media all and (min-width: 768px){
+
+    .proyects {
+         &__proyects {
+            margin-left: 200px;
+            margin-right: 200px;   
+        }
+
+        &__title {
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            margin: 8rem 0rem 5rem 0rem;
+        }
+    }       
+    
+    }

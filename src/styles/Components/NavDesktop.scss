@@ -1,0 +1,68 @@
+@import '../Core/Reset.scss';
+@import "../Core/Variables.scss";
+
+
+
+.nav {
+ display: none;
+}
+
+.nav__mobile {
+  display: flex;
+}
+
+.shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Cambia los valores según tus preferencias */
+}
+
+   @media all and (min-width:768px) {
+
+    .nav__mobile {
+      display: none;
+    }
+   
+   .nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: $--color-medium-white;
+
+    &__List {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 450px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+   }
+
+   &__Item a {
+    color: $--color-primary;
+   }
+   
+
+   &__Item a:hover {
+    border-bottom: 2px solid $--color-global-pink;
+   }
+   } 
+}
+
+.activeLink a {
+  border-bottom: 2px solid $--color-global-pink;
+  color: $--color-global-pink;
+
+}
+
+.none {
+display: none;
+}
+
+.show {
+display: flex;
+}

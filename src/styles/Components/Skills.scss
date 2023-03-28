@@ -1,0 +1,67 @@
+@import '../Core/Reset.scss';
+@import "../Core/Variables.scss";
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    
+     &__title {
+      font-size: 30px;
+      font-weight: 600;
+      margin: 3rem 0rem 5rem 0rem;
+      font-family: $--font-family-Roboto;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $--color-white;
+      background-color: $--color-orange;
+      background-color: $--color-accent-purple;
+      border-radius: 5px;
+      padding: 5px 15px;
+     }
+
+     &__iconsSection { //SECCIÓN ICONOS Y TEXTO
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.3rem;
+        justify-content: center;
+       margin: 0 2rem 0 2rem;
+     }
+
+     &__icon {    //ICONO
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        border-radius: 50px;
+        width: 70px;
+        height: 70px;
+       background-color: $--color-accent;
+
+       background: $--color-global-pink;
+       background: radial-gradient(circle, $--color-global-pink 0%, $--color-orange 100%);
+     } 
+     }
+
+     
+     
+@media all and (min-width:768px) {
+
+   .skills {
+
+      margin-bottom: 2rem;
+      &__title {
+         display: flex;
+         align-items: center;
+         font-size: 25px;
+         margin: 4rem 0rem 5rem 0rem;
+      }
+   }
+}
+
+     
+
+

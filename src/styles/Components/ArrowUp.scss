@@ -1,0 +1,46 @@
+@import '../Core/Reset.scss';
+@import '../Core/Variables.scss';
+
+.arrow {
+    
+    &__icon {
+    display: flex;
+    position: fixed;
+    z-index: 300;
+    bottom: 20px;
+    right: 15px;
+    cursor: pointer;
+    background-color: $--color-orange;
+    color: $--color-white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    transition: .5s;
+    border-radius: 3px;
+
+    &:active {
+        color: $--color-accent-purple;
+    }
+    }
+    
+    &__show {
+        opacity: 100;
+    }
+
+    &__notShow {
+        opacity: 0;
+    }
+
+    @media all and (min-width:768px) {
+        &__icon {
+            bottom: 40px;
+            right: 40px;
+            font-size: 25px;
+
+            &:hover {
+            color: $--color-accent-purple;
+            }
+        }
+    }
+
+}

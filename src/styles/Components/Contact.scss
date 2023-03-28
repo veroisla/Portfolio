@@ -1,0 +1,150 @@
+@import '../Core/Reset.scss';
+@import "../Core/Variables.scss";
+
+.contact {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    height: 80vh;
+}
+
+.card__one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $--color-accent-purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $--color-white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card__icon {
+    font-size: 60px;
+}
+
+
+.container .card .slide {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .slide.slide1 {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: .7s;
+    transform: translateY(100px);
+}
+
+.container .card:hover .slide.slide1{
+    transform: translateY(0px);
+}
+
+.container .card .slide.slide2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: .8s;
+    transform: translateY(-100px);
+    box-shadow: 0 20px 40px rgba(82, 81, 81, 0.4);
+    background-color: #EDBE9D;
+}
+
+.container .card:hover .slide.slide2{
+    transform: translateY(0);
+}
+
+//ralla
+.container .card .slide.slide2::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    bottom: 15px;
+    left: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $--color-accent-purple;
+}
+
+.card__links {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 275px;   
+}
+
+.card__chat {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.card__icon {
+    font-size: 30px; 
+    color: $--color-white;
+}
+
+.card__title {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #EDBE9D;
+} 
+
+
+@media all and (min-width: 768px) {
+
+    .card {
+        height: 300px;
+        cursor: pointer;
+    }
+
+    .card__one {
+        width: 600px;
+        height: 300px;
+    }
+    
+    .container .card .slide {
+        width: 600px;
+        height: 245px;
+        transition: 0.5s;
+    }
+
+    .card__chat {
+        font-size: 60px;
+    }
+
+    .card__icon {
+        font-size: 40px;
+        transition: 0.5s;
+    }
+
+    .card__icon:hover {
+       color: $--color-accent-purple;
+    }
+
+    .card__links {
+        margin-top: 60px;
+    }
+}
+
+

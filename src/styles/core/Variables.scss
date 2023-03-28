@@ -1,0 +1,89 @@
+
+
+//COLORS
+$--color-title-sections: #3d4449;
+$--color-white: #ffffff;
+$--color-accent:#f56a6a;
+$--color-btn-active:rgba(245, 106, 106, 0.13); 
+$--color-nav:#f5f6f7;
+
+$--color-black: rgba(14, 12, 12, 0.904);
+$--color-bg-ligth-pink:#e5d5d1;
+$--color-light-black: rgba(14, 13, 13, 0.651);
+
+//somos estupendas
+$--color-primary: #3D3D3D;
+$---color-accent-green: #61CE70;
+$--color-global-pink: #DD9892;
+$--color-orange: #EDBE9D;
+$--color-medium-white: #F9F2E8;
+$--color-light-blue: #BFE8E1;
+$--color-yellow: #F9E6B9;
+$--color-purple: #CECDDC;
+$--color-accent-purple: #AAA8BD;
+$--color-accent-yellow: #F6D351;
+$--color-pink: #ff5851;
+
+//------TIPOGRAFÍA
+$--font-family-openSans: 'Open Sans', sans-serif;
+$--font-family-Roboto: 'Roboto Slab', serif; 
+
+
+//SIZES
+$--container-width-lg: 75%;
+$--container-width-md: 86%;
+$--container-width-sm: 90%;
+
+//TRANSITIONS
+$--transition: all 400ms ease;
+
+html {
+    scroll-behavior: smooth;
+}
+
+//Barra de desplazamiento
+::-webkit-scrollbar {
+     display: none;
+}
+
+body {
+    line-height: 1.7;
+    position: relative;
+    background-color: $--color-medium-white;
+    text-decoration: none;
+}
+
+.none {
+    display: none;
+    }
+    
+.show {
+ display: flex;
+ }
+
+ .modal-overflow {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover; // Como una imagen se tiene que redimensionar para ajustarse a su contenedor. Con cover el contenido se dimensiona para mantener su relación de aspecto
+}
+
+
+//ANIMATION FADE IN TEXT
+
+
+.fade-in-text {
+    // font-family: Arial;
+    // font-size: 150px;
+    animation: fadeIn 4s;
+    z-index: -100;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
