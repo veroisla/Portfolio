@@ -7,11 +7,11 @@ import '../styles/Core/Variables.scss';
 
 //RUTAS INTERNAS
 import Header from './Header';
-import About from './About';
-import Proyects from './Proyects';
-import Contact from './Contact';
-import NavDesktop from './NavDesktop';
-import NavMobile from './NavMobile';
+// import About from './About';
+// import Proyects from './Proyects';
+// import Contact from './Contact';
+// import NavDesktop from './NavDesktop';
+// import NavMobile from './NavMobile';
 
 function App() {
   window.addEventListener('load', function () {
@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div>
-      <header>
+      {/* <header>
         <NavDesktop />
         <NavMobile />
       </header>
@@ -31,7 +31,8 @@ function App() {
           <Route path="/Proyects" element={<Proyects />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
-      </main>
+      </main> */}
+      <Header />
     </div>
   );
 }
